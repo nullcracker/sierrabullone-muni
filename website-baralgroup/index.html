@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/sierra_logo.jpg" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+       
+
+        <title>Sierra Bullones</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo"></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Discover</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Places</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/banner2.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <!-- <span class="home__data-subtitle">Discover Explore Feel</span> -->
+                       
+                        <!-- <h1 class="home__data-titl"><span class="animate"></span></h1> -->
+
+                        <h1 class="home__data-title"><span class="animate"></span> <br> The Beauty of <b> <br>Sierra Bullones</b></h1>
+                        <a href="#discover" class="button">Explore</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">4 best places to visit</span>
+                            <a href="#place" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/paradiseLatest - Copy.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">History of <br> Sierra Bullones</h2>
+                        <p class="about__description">Old folks said that the name Sierra Bullones was taken from the Spanish words “Sierra” meaning mountain and “Bullones” meaning billions of gold. During the Spanish colonization, wealthy Spaniards were said to have buried billions of gold somewhere between the barangays of Dusita and Canta-ub.
+                        </p>
+                        <a href="http://www.sierrabullones-bohol.gov.ph/" class="button">Read More</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/sierra-bullones-municipal-hall-2.png" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/santa-claus-in-sierra-bullo.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Discover the most <br> attractive places</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/bohol rice terraces.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Rice <br>Terraces</h2>
+                               
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/vegetablefarmLatest.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Vegetable <br>Farm</h2>
+                               
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                           
+                            <img src="assets/img/paradiseLatest.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Paradise <br>Resort</h2>
+                                
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/rice_terraces.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Rice <br>Terraces</h2>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">Sierra Bullones <br> Location</h2>
+
+                <div class="experience__container container grid">
+                    
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                           <iframe class="experience__img-one" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125813.04391286317!2d124.23775043647213!3d9.795009472898519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aa118cb8b36331%3A0xe8ae11b37e301512!2sSierra%20Bullones%2C%20Bohol!5e0!3m2!1sen!2sph!4v1652852738135!5m2!1sen!2sph" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="assets/img/road.jpg" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Video Tour</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Find out more with our video of the most beautiful and 
+                        pleasant places in Sierra Bullones.
+                    </p>
+
+                    <div class="iframe-container">
+                        <!-- <video id="video-file"> -->
+                            <!-- <source src="assets/video/SIERRA BULLONES TOWN AERIAL VIEW.mp4" type="video/mp4"> -->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/H1z-OtqnQ0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!-- </video> -->
+
+                        <!-- <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button> -->
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Choose Your Place</h2>
+
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/vegetablefarmLatest.jpg" alt="" class="place__img">
+                        
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">5.0</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Vegetable <br>Farm</h3>
+                               
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button" onclick="vegetableFarm()">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/paradiseLatest.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">5,0</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Paradise <br>Resort</h3>
+                               
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button" onclick="paradiseResort()">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/bohol rice terraces.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">5.0</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Rice <br>Terraces</h3>
+                               
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button" onclick="riceTerraces()">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="assets/img/rice_terraces.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">5.0</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Rice <br>Terraces</h3>
+                               
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button" onclick="riceTerraces2()">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                   
+
+                    
+                   
+                </div>
+            </section>
+
+            <!--==================== SUBSCRIBE ====================-->
+            <!-- <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">Subscribe Our <br> Newsletter</h2>
+                        <p class="subscribe__description">Subscribe to our newsletter and get a 
+                            special 30% discount.
+                        </p>
+    
+                        <form action="" class="subscribe__form">
+                            <input type="text" placeholder="Enter email" class="subscribe__input">
+    
+                            <button class="button">
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section> -->
+            
+            <!--==================== SPONSORS ====================-->
+            <!-- <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors4.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
+                    </div>
+                </div>
+            </section> -->
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Travel</h3>
+                        <p class="footer__description">Explore the beauty of 
+                            <br>Sierra Bullones, Bohol
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="foo ter__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2022 ExploreSierraBullones. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                       
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <script src="assets/js/modal.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <script src="assets/js/type.js"></script>
+    </body>
+</html>
